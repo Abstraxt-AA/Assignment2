@@ -31,7 +31,7 @@ void pageRank(Graph g, double* solution, double damping, double convergence)
   
   
   /*
-     CS149 students: Implement the page rank algorithm here.  You
+     CpE561 students: Implement the page rank algorithm here.  You
      are expected to parallelize the algorithm using openMP.  Your
      solution may need to allocate (and free) temporary arrays.
 

@@ -100,10 +100,9 @@ void bfs_top_down(Graph graph, solution* sol) {
 
 void bfs_bottom_up(Graph graph, solution* sol)
 {
-    // CS149 students:
+    // CpE561 students:
     //
-    // You will need to implement the "bottom up" BFS here as
-    // described in the handout.
+    // You will need to implement the "bottom up" BFS here 
     //
     // As a result of your code's execution, sol.distances should be
     // correctly populated for all nodes in the graph.
@@ -115,8 +114,7 @@ void bfs_bottom_up(Graph graph, solution* sol)
 
 void bfs_hybrid(Graph graph, solution* sol)
 {
-    // CS149 students:
+    // CpE561 students:
     //
-    // You will need to implement the "hybrid" BFS here as
-    // described in the handout.
+    // You will need to implement the "hybrid" BFS here 
 }

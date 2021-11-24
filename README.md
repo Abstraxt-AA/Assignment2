@@ -36,7 +36,7 @@ In this assignment we'd like you to use [OpenMP](http://openmp.org/) for multi-c
       }                                                                             
     }
     
-Please see OpenMP documentation for the syntax for how to tell OpenMP to use different forms of static or dynamic scheduling. (For example, `omp parallel for schedule(dynamic 100)` distributes iterations to threads using dynamic scheduling with a chunk size of 100 iterations.  You can think of the implementation as a dynamic work queue where threads in the thread pool pull off 100 iterations at once, like what [we talked about in these lecture slides](http://35.227.169.186/cs149/fall21/lecture/perfopt1/slide_11)).
+Please see OpenMP documentation for the syntax for how to tell OpenMP to use different forms of static or dynamic scheduling. (For example, `omp parallel for schedule(dynamic 100)` distributes iterations to threads using dynamic scheduling with a chunk size of 100 iterations.  You can think of the implementation as a dynamic work queue where threads in the thread pool pull off 100 iterations at once.
     
 Here is an example for an atomic counter update in OpenMP.
 
@@ -75,11 +75,7 @@ As a simple warm up exercise to get comfortable using the graph data structures,
 
 Please take a look at the pseudocode provided to you in the function `pageRank()`, in the file `pagerank/page_rank.cpp.`.  You should implement the function, parallelizing the code with OpenMP.  Just like any other algorithm, first identify independent work and any necessary sychronization.
 
-You can run your code, checking correctness and performance against the staff reference solution using:
-
-    ./pr <PATH_TO_GRAPHS_DIRECTORY>/com-orkut_117m.graph 
-    
-If you are working on a myth machine, we've located a copy of the graphs directory at `/afs/ir.stanford.edu/class/cs149/data/asst3_graphs/`.  You can also download the graphs from <http://cs149.stanford.edu/cs149asstdata/all_graphs.tgz>. (Please paste the preceding link into your browser to download the .tgz file, but be careful, this is a 2.2 GB download.) Some interesting real-world graphs include:
+You can also download some sample graphs from "Provided later". (Please paste the preceding link into your browser to download the .tgz file, but be careful, this is a 2.2 GB download.) Some interesting real-world graphs include:
 
  * com-orkut_117m.graph 
  * oc-pokec_30m.graph
@@ -188,7 +184,7 @@ The 100 points on this assignment are allotted as follows:
 
 Please submit your work using Gradescope.
 
-1. __Please submit your writeup as the file `writeup.pdf` in the Gradescope assignment Programming Assignment 4 (Writeup Submission).__
-2. __Please submit your code under the folder `code` in the Gradescope assignment Programming Assignment 4 (Code Submission).__  Just submit your full assignment 4 source tree. To keep submission sizes small, please do a `make clean` in the program directories prior to creating the archive, and remove any residual output, etc. Before submitting the source files, make sure that all code is compilable and runnable! We should be able to simply make, then execute your programs in the `/bfs` the `/pagerank` directories without manual intervention. 
+1. __Please submit your writeup as the file `writeup.pdf` in the Gradescope assignment Programming Assignment 2 (Writeup Submission).__
+2. __Please submit your code under the folder `code` in the Gradescope assignment Programming Assignment 2 (Code Submission).__  Just submit your full assignment 4 source tree. To keep submission sizes small, please do a `make clean` in the program directories prior to creating the archive, and remove any residual output, etc. Before submitting the source files, make sure that all code is compilable and runnable! We should be able to simply make, then execute your programs in the `/bfs` the `/pagerank` directories without manual intervention. 
 
 Our grading scripts will rerun the checker code allowing us to verify your score matches what you submitted in the `writeup.pdf`.  We might also try to run your code on other datasets to further examine its correctness.
