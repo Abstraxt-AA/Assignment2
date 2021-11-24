@@ -1,6 +1,6 @@
-# Assignment 4: Big Graph Processing in OpenMP #
+# Assignment 2: Big Graph Processing in OpenMP #
 
-**Due: Monday Nov 29th, 11:59PM PST**
+**Due: Sunday Dec 12th, 11:59PM GMT+3**
 
 **100 points total**
 
@@ -185,6 +185,6 @@ The 100 points on this assignment are allotted as follows:
 Please submit your work using Gradescope.
 
 1. __Please submit your writeup as the file `writeup.pdf` in the Gradescope assignment Programming Assignment 2 (Writeup Submission).__
-2. __Please submit your code under the folder `code` in the Gradescope assignment Programming Assignment 2 (Code Submission).__  Just submit your full assignment 4 source tree. To keep submission sizes small, please do a `make clean` in the program directories prior to creating the archive, and remove any residual output, etc. Before submitting the source files, make sure that all code is compilable and runnable! We should be able to simply make, then execute your programs in the `/bfs` the `/pagerank` directories without manual intervention. 
+2. __Please submit your code under the folder `code` in the Gradescope assignment Programming Assignment 2 (Code Submission).__  Just submit your full assignment 2 source tree. To keep submission sizes small, please do a `make clean` in the program directories prior to creating the archive, and remove any residual output, etc. Before submitting the source files, make sure that all code is compilable and runnable! We should be able to simply make, then execute your programs in the `/bfs` the `/pagerank` directories without manual intervention. 
 
 Our grading scripts will rerun the checker code allowing us to verify your score matches what you submitted in the `writeup.pdf`.  We might also try to run your code on other datasets to further examine its correctness.
