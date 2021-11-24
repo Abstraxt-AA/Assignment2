@@ -10,11 +10,11 @@ In this assignment, you will implement two graph processing algorithms: [breadth
 
 ## Environment Setup ##
 
-Early starters of this assignment should get started by running on the 4-core (8 hyperthread) machines in the Myth cluster.  These machines will suffice for basic development and performance testing.  However final grading will be performed on 32 vCPU machines that you will run on the AWS cloud platform (see [cloud_readme.md](cloud_readme.md) for setup).
+Early starters of this assignment should get started by running on a local multi core machine in the lab (or personal).  These machines will suffice for basic development and performance testing.  However final grading will be performed on 32 vCPU machines that you will run on the AWS cloud platform (see [cloud_readme.md](cloud_readme.md) for setup), you can use [Azure](https://azure.microsoft.com/en-us/free/search/?&ef_id=CjwKCAiA4veMBhAMEiwAU4XRr8qGGrln-bdi2Xw3x6eQZD-og9fUwL8bgp2b_gJpoy2rRFJXPkStDhoCapUQAvD_BwE:G:s&OCID=AID2201048_SEM_CjwKCAiA4veMBhAMEiwAU4XRr8qGGrln-bdi2Xw3x6eQZD-og9fUwL8bgp2b_gJpoy2rRFJXPkStDhoCapUQAvD_BwE:G:s&gclid=CjwKCAiA4veMBhAMEiwAU4XRr8qGGrln-bdi2Xw3x6eQZD-og9fUwL8bgp2b_gJpoy2rRFJXPkStDhoCapUQAvD_BwE), or [Digital Ocean](https://www.digitalocean.com).
 
-To get started on myth machines:
+To get started on a local machine:
 
-Download the Assignment 4 starter code from the course Github page using:
+Download the Assignment 2 starter code from the course Github page using:
 
     git clone https://github.com/stanford-cs149/asst4
 
