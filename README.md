@@ -16,7 +16,7 @@ To get started on a local machine:
 
 Download the Assignment 2 starter code from the course Github page using:
 
-    git clone https://github.com/stanford-cs149/asst4
+    git clone https://github.com/mjeragh/Assignment2.git
 
 #### Background: Learning OpenMP ####
 
